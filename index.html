@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+
+
+<body>
+  <header>
+
+    <div class="container-fluid navbar navbar-light bg-light">
+      <a class="navbar-brand p-3" href="#">Parts</a>
+      <button class="btn  btn-primary m-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+        aria-controls="offcanvasRight">
+
+        <i class="fa-solid fa-cart-shopping "></i>
+      </button>
+
+
+    </div>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header ">
+        <h5 id="offcanvasRightLabel">Order Products</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">List ;
+
+
+
+        <div class="container">
+          <div class="row mb-3 pt-2 border-bottom">
+            <div class="col">
+              <div class="cart-content">
+                <div class="cart-box">
+                  <img src="img/9311918.jpg" class="cart-img">
+                </div>
+
+
+              </div>
+            </div>
+            <div class="col">
+              <div class="detail-box">
+                <div class="cart-food-title text-uppercase fw-bolder text-primary">bmw </div>
+                <div class="price-box d-flex justify-content-between">
+                  <div class="cart-price">Rs.1000</div>
+                  <div class="cart-amt ms-5 me-2 fw-bold">Rs.1000</div>
+                </div>
+                <input type="number" value="1" class="cart-quantity mb-2">
+              </div>
+            </div>
+            <div class="col">
+              <div class="btn col trash cart-remove">
+                <i class="fa-solid fa-trash pt-4"></i>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-3 pt-2 border-bottom">
+            <div class="col">
+              <div class="cart-content">
+                <div class="cart-box">
+                  <img src="img/9311918.jpg" class="cart-img">
+                </div>
+
+
+              </div>
+            </div>
+            <div class="col">
+              <div class="detail-box">
+                <div class="cart-food-title  text-uppercase fw-bolder text-primary">Spare</div>
+                <div class="price-box d-flex justify-content-between">
+                  <div class="cart-price">Rs.1000</div>
+                  <div class="cart-amt ms-5 me-2 fw-bold">Rs.1000</div>
+                </div>
+                <input type="number" value="1" class="cart-quantity mb-2 text-center">
+              </div>
+            </div>
+            <div class="btn col trash cart-remove">
+              <i class="fa-solid fa-trash pt-4"></i>
+            </div>
+
+
+
+          </div>
+          <div class="total d-flex justify-content-evenly mt-2">
+            <div class="total-total">Total </div>
+            <div class="total-price">Rs.0</div>
+          </div>
+
+          <span class="d-flex justify-content-center mt-2">
+            <button class="btn-buy btn btn-danger">Place Order <i
+                class="fa-solid fa-money-check-dollar ps-2"></i></button>
+          </span>
+        </div> 
+  </header>
+
+  <main>
+    <!-- 1 Cards Start -->
+    <div class="container my-5" id="accessories">
+      <div class="row">
+
+
+        <div class="col-md-4">
+          <div class="card mb-4">
+
+
+            <img src="img/Custom parts/M auxiliary stand mounts.png" class="card-img-top" alt="M aux"  />
+
+            <div class="card-body">
+              <h5 class="card-title">M auxiliary stand mounts</h5>
+
+              <p class="card-text">
+                Using Sport auxiliary stands, it is easy to jack up your
+                motorcycle on the front and rear wheel thanks to the double
+                rollers...
+              </p>
+              <div class="text-muted card-price">Rs 20,500
+                
+              </div>
+              <a href="#" class="btn btn-primary btn-block adcrt">
+                <i class="fa fa-external-link pr-3" aria-hidden="true"></i>
+                Buy Now</a>
+            </div>
+           
+          </div>
+        </div>
+
+
+
+
+
+        <div class="col-12 col-md-4">
+          <div class="card mb-4">
+
+
+            <img src="img/Custom parts/Passenger Kit.jpg" alt="Passenger Kit" class="card-img-top product-img" />
+
+            <div class="card-body">
+              <h5 class="card-title">Passenger Kit</h5>
+
+              <p class="card-text">
+                The BMW Motorrad passenger package with a passenger seat and
+                matching rear footrests provides a race feeling...
+              </p>
+              <div class="text-muted card-price">Rs 120,800
+                
+              </div>
+              <a href="#" class="btn btn-primary btn-block adcrt">
+                <i class="fa fa-external-link pr-3" aria-hidden="true"></i>
+                Buy Now</a>
+            </div>
+            
+          </div>
+        </div>
+
+
+
+
+        
+        <div class="col-12 col-md-4">
+          <div class="card mb-4">
+
+
+            <img src="img/Custom parts/M Billet Package.jpg" alt="M Billet Package" class="card-img-top" />
+
+            <div class="card-body">
+              <h5 class="card-title">M Billet Package</h5>
+
+              <p class="card-text">
+                The M billet parts emphasises the sporty character of the bike
+                with high-quality components M branding. The anodised
+                aluminium billet parts, folding
+              </p>
+              <div class="text-muted card-price">Rs 300,000
+                
+              </div>
+              <a href="#" class="btn btn-primary btn-block adcrt">
+                <i class="fa fa-external-link pr-3" aria-hidden="true"></i>
+                Buy Now</a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Second Card Colum -->
+    <!-- 2 Cards Start -->
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <div class="card mb-4">
+
+
+            <img src="img/Custom parts/Anodised aluminium swing arm, silver.jpg" class="imgwi"
+              alt="Anodised aluminium swing arm" class="card-img-top" />
+
+            <div class="card-body">
+              <h5 class="card-title">Anodised aluminium swing arm</h5>
+
+              <p class="card-text">
+                Using Sport auxiliary stands, it is easy to jack up your
+                motorcycle on the front and rear wheel thanks to the double
+                rollers...
+              </p>
+              <div class="text-muted card-price">Rs 4,50,500
+                
+              </div>
+              <a href="#" class="btn btn-primary btn-block adcrt">
+                <i class="fa fa-external-link pr-3" aria-hidden="true"></i>
+                Buy Now</a>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card mb-4">
+
+            <img src="img/Custom parts/Carbon Package.jpg" class="imgwi" alt="Carbon Package" class="card-img-top" />
+
+            <div class="card-body">
+              <h5 class="card-title">Carbon Package</h5>
+
+              <p class="card-text">
+                The M Carbon parts emphasise the bike’s sporty aspirations and
+                help provide a high-quality look. M rider footrest system
+              </p>
+              <div class="text-muted card-price">Rs 8,20,500
+                
+              </div>
+              <a href="#" class="btn btn-primary btn-block adcrt">
+                <i class="fa fa-external-link pr-3" aria-hidden="true"></i>
+                Buy Now</a>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card mb-4">
+                     
+            <div class="card-body">
+              <img src="img/Custom parts/M cover kit.jpg" class=" card-img-top" alt="M cover kit"/>
+              <h5 class="card-title">M cover kit</h5>
+              <p class="card-text">
+                For those looking to make their bike fit for the racetrack,
+                mirrors just as the number plate holder. The high-quality
+                covers in the M cover kit from BMW
+              </p>
+              <div class="text-muted card-price">Rs 50,500
+                
+              </div>
+              <a href="#" class="btn btn-primary btn-block adcrt">
+                <i class="fa fa-external-link pr-3" aria-hidden="true"></i>
+                Buy Now</a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 2nd Cards End -->
+
+
+  </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
