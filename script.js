@@ -56,6 +56,6 @@ function addCart(){
     let cart=this.parentElement;
     let title=cart.querySelector('.card-title').innerHTML;
     let price=cart.querySelector('.card-price').innerHTML;
-    let imgSrc=cart.querySelector('.product-image').src;
+    let imgSrc=cart.querySelector('.card-img-top').src;
     console.log(title,price,imgSrc);
 }
